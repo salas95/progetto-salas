@@ -1,0 +1,57 @@
+/*inizio principale*/
+
+body {
+	padding-top: 50px;
+}
+
+
+nav {
+	box-shadow: 0px 5px 15px #333;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus, 
+  .dropdown-menu > li > a:hover
+   {
+
+  	background: #E41B14;
+  	color: #fff;
+  }
+
+  .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+  	color: #aaa;
+  }
+
+  .dropdown-menu {
+  	background: #222;
+  }
+
+  .dropdown-menu > li > a {
+  	color: #aaa;
+  	padding: 6px 20px;
+  	-webkit-transition: padding .5s ease;
+  	-moz-transition: padding .5s ease;
+  	-o-transition: padding .5s ease;
+  	transition: padding .5s ease;
+  }
+
+    .dropdown-menu > li > a:hover {
+    	padding-left: 30px;
+    }
+    
+   .carousel-caption {
+   		color: #E41B14;
+   		font-weight: bold;
+   		font-size: 24px;
+
+   }
+
+
+   .about {
+   	padding-top: 60px;
+   	padding-bottom: 60px;
+   }
+
+
+ 
